@@ -1,5 +1,5 @@
 # Ex.05 Design a Website for Server Side Processing
-## Date:
+## Date:2.4.24
 
 ## AIM:
 To design a website to find surface area of a Right Cylinder in server side.
@@ -30,7 +30,7 @@ Create a HTML file to implement form based input and output.
 Publish the website in the given URL.
 
 ## PROGRAM :
-index.html
+### index.html
 ```
 <html>
 <head>
@@ -109,7 +109,7 @@ index.html
 </body>
 </html>
 ```
-urls.py
+### urls.py
 ```
 from django.contrib import admin
 from django.urls import path
@@ -120,7 +120,7 @@ urlpatterns = [
     path('',views.rectarea,name="areaofrectangleroot")
 ]
 ```
-views.py
+### views.py
 ```
 from django.shortcuts import render
 
@@ -145,9 +145,11 @@ def rectarea(request):
 ```
 ## SERVER SIDE PROCESSING:
 
+![Screenshot 2024-04-24 133507](https://github.com/yogeshwaran72/MathServer/assets/153492924/d0c473a6-600e-4c3c-a142-e8b4ff717680)
 
 ## HOMEPAGE:
 
+![Screenshot 2024-04-24 133458](https://github.com/yogeshwaran72/MathServer/assets/153492924/50d05f83-2070-4005-a35d-5217fe3b5cd0)
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
