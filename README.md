@@ -88,7 +88,7 @@ Publish the website in the given URL.
 <body>
     <div class="edge">
         <div class="box">
-            <h1>Area of a Square Prism</h1>
+            <h1>SURFACE AREA OF CYLINDER</h1>
             <form method="POST">
                 {% csrf_token %}
                 <div class="formelt">
@@ -148,8 +148,8 @@ def rectarea(request):
 ![Screenshot 2024-04-24 133507](https://github.com/yogeshwaran72/MathServer/assets/153492924/d0c473a6-600e-4c3c-a142-e8b4ff717680)
 
 ## HOMEPAGE:
+![Screenshot 2024-04-30 102738](https://github.com/yogeshwaran72/MathServer/assets/153492924/e6196a9c-5ed4-4dd2-8468-b414ae739062)
 
-![Screenshot 2024-04-24 133458](https://github.com/yogeshwaran72/MathServer/assets/153492924/50d05f83-2070-4005-a35d-5217fe3b5cd0)
 
 ## RESULT:
 The program for performing server side processing is completed successfully.
